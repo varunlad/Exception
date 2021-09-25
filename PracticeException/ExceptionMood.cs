@@ -19,23 +19,26 @@ namespace PracticeException
         {
             try
             {
-
-                if (message.ToLower().Contains("happy"))//Condition to check if my Message contain Happy Word or Not
+                if (message.ToLower().Equals(string.Empty))
                 {
-                    return "happy";
+                    throw new CustomException(CustomException.ExceptionType.EMPTY_TYPE_EXCEPTION, "Message should not be empty");
                 }
-                else if (message.ToLower().Contains("sad"))//Condition to check if my Message contain Happy Word or Not
+                else if (message.ToLower().Contains("sad"))
                 {
                     return "sad";
                 }
                 else
                 {
-                    return "Nither Happy nor Sad";
+                    return "happy";
                 }
             }
-            catch(NullReferenceException)
+            catch (NullReferenceException)
             {
-                return "happy";
+                throw new CustomException(CustomException.ExceptionType.INVALID_MOOD_EXCEPTION, "Message should not be null");
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
             }
         }
     }

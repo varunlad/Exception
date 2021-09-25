@@ -40,21 +40,47 @@ namespace UnitTestProjectMoodAnalysis
             Assert.AreEqual(excepted, actual);//Checking wether my actual rasult and Excepted Results Matches or not
 
         }
+        
         [TestMethod]
-        public void GivenNullShouldReturnHappy()
+        [TestCategory("Customexception")]
+        public void GivenNullShouldReturnCustomNullException()
         {
             //AAA Methology
 
             //Arrange
-            string excepted = "happy";
-            ExceptionMood moodAnalyser = new ExceptionMood(null);//Creating a object and passing a message
+            string excepted = "Message should not be null";
+            ExceptionMood moodAnalyser = new ExceptionMood(null);
+            try
+            {
+                //ACT
+                string actual = moodAnalyser.AnalyzeMood();
+            }
+            catch (CustomException ex)
+            {
+                //ASSERT
+                Assert.AreEqual(excepted, ex.Message);
+            }
+        }
 
-            //ACT
-            string actual = moodAnalyser.AnalyzeMood();
+        [TestMethod]
+        [TestCategory("Customexception")]
+        public void GivenEmptyShouldReturnCustomEmptyException()
+        {
+            //AAA Methology
 
-            //ASSERT
-            Assert.AreEqual(excepted, actual);//Checking wether my actual rasult and Excepted Results Matches or not
-
+            //Arrange
+            string excepted = "Message should not be empty";
+            ExceptionMood moodAnalyser = new ExceptionMood(string.Empty);
+            try
+            {
+                //ACT
+                string actual = moodAnalyser.AnalyzeMood();
+            }
+            catch (CustomException ex)
+            {
+                //ASSERT
+                Assert.AreEqual(excepted, ex.Message);
+            }
         }
 
     }

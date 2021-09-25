@@ -40,21 +40,46 @@ namespace MoodTesting
 
         }
         [TestMethod]
-        public void GivenNullShouldReturnHappy()
+        [TestCategory("Customexception")]
+        public void GivenNullShouldReturnCustomNullException()
         {
             //AAA Methology
 
             //Arrange
-            string excepted = "happy";
-            ExceptionMood moodAnalyser = new ExceptionMood(null);//Creating a object and passing a message
+            string excepted = "Message should not be null";
+            ExceptionMood moodAnalyser = new ExceptionMood(null);//Passing an Null Message To call Null_Type_Exception
+            try
+            {
+                //ACT
+                string actual = moodAnalyser.AnalyzeMood();
 
-            //ACT
-            string actual = moodAnalyser.AnalyzeMood();
-
-            //ASSERT
-            Assert.AreEqual(excepted, actual);//Checking wether my actual rasult and Excepted Results Matches or not
-
+            catch (CustomException ex)
+            {
+                //ASSERT
+                Assert.AreEqual(excepted, ex.Message);//Checking wether my actual result and Excepted Results Matches or not
+            }
         }
+
+        [TestMethod]
+        [TestCategory("Customexception")]
+        public void GivenEmptyShouldReturnCustomEmptyException()
+        {
+            //AAA Methology
+
+            //Arrange
+            string excepted = "Message should not be empty";
+            ExceptionMood moodAnalyser = new ExceptionMood(string.Empty);//Passing an Empty Message  To call Empty_Type_Exception
+            try
+            {
+                //ACT
+                string actual = moodAnalyser.AnalyzeMood();
+            }
+            catch (CustomException ex)
+            {
+                //ASSERT
+                Assert.AreEqual(excepted, ex.Message);//Checking wether my actual result and Excepted Results Matches or not
+            }
+        }	
 
     }
 }
