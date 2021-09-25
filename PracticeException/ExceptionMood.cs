@@ -19,11 +19,12 @@ namespace PracticeException
         {
             try
             {
-                if (message.ToLower().Contains("happy"))
+
+                if (message.ToLower().Contains("happy"))//Condition to check if my Message contain Happy Word or Not
                 {
                     return "happy";
                 }
-                else if (message.ToLower().Contains("sad"))
+                else if (message.ToLower().Contains("sad"))//Condition to check if my Message contain Happy Word or Not
                 {
                     return "sad";
                 }
@@ -36,7 +37,6 @@ namespace PracticeException
             {
                 return "happy";
             }
-
         }
     }
 }

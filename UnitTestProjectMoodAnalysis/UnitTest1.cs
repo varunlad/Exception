@@ -25,7 +25,7 @@ namespace UnitTestProjectMoodAnalysis
         }
 
         [TestMethod]
-        public void GivenSadShouldReturnHappy()
+        public void GivenSadShouldReturnSad()
         {
             //AAA Methology
 
@@ -40,6 +40,22 @@ namespace UnitTestProjectMoodAnalysis
             Assert.AreEqual(excepted, actual);//Checking wether my actual rasult and Excepted Results Matches or not
 
         }
-       
+        [TestMethod]
+        public void GivenNullShouldReturnHappy()
+        {
+            //AAA Methology
+
+            //Arrange
+            string excepted = "happy";
+            ExceptionMood moodAnalyser = new ExceptionMood(null);//Creating a object and passing a message
+
+            //ACT
+            string actual = moodAnalyser.AnalyzeMood();
+
+            //ASSERT
+            Assert.AreEqual(excepted, actual);//Checking wether my actual rasult and Excepted Results Matches or not
+
+        }
+
     }
 }
