@@ -17,9 +17,7 @@ namespace PracticeException
 
         public string AnalyzeMood()
         {
-            try
-            {
-
+            
                 if (message.ToLower().Contains("happy"))//Condition to check if my Message contain Happy Word or Not
                 {
                     return "happy";
@@ -32,11 +30,7 @@ namespace PracticeException
                 {
                     return "Nither Happy nor Sad";
                 }
-            }
-            catch(NullReferenceException)
-            {
-                return "happy";
-            }
+            
         }
     }
 }
