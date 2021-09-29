@@ -1,0 +1,17 @@
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\MoodAnlyzesUnitTesting.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\MoodAnlyzesUnitTesting.pdb
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Exception058.exe
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Exception058.pdb
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Exception058.exe.config
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\obj\Debug\MSTestingForMoodAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\obj\Debug\MSTestingForMoodAnalysis.csproj.CopyComplete
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\obj\Debug\MoodAnlyzesUnitTesting.dll
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\obj\Debug\MoodAnlyzesUnitTesting.pdb
+C:\Users\Varun\source\repos\Exception058\MoodAnlyzesUnitTesting\obj\Debug\MSTestingForMoodAnalysis.csproj.AssemblyReference.cache

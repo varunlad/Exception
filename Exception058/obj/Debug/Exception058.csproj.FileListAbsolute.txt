@@ -1,0 +1,7 @@
+C:\Users\Varun\source\repos\Exception058\Exception058\bin\Debug\Exception058.exe.config
+C:\Users\Varun\source\repos\Exception058\Exception058\bin\Debug\Exception058.exe
+C:\Users\Varun\source\repos\Exception058\Exception058\bin\Debug\Exception058.pdb
+C:\Users\Varun\source\repos\Exception058\Exception058\obj\Debug\Exception058.csproj.AssemblyReference.cache
+C:\Users\Varun\source\repos\Exception058\Exception058\obj\Debug\Exception058.csproj.CoreCompileInputs.cache
+C:\Users\Varun\source\repos\Exception058\Exception058\obj\Debug\Exception058.exe
+C:\Users\Varun\source\repos\Exception058\Exception058\obj\Debug\Exception058.pdb
