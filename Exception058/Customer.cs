@@ -8,26 +8,26 @@ namespace Exception058
 {
     class Customer
     {
-        //public int Id
-        //{
-        //    get; set;
-        //}
-        //public string name
-        //{
-        //    get; set;
-        //}
-        //public Customer()
-        //{
-        //    this.Id = Id;
-        //    this.name = name;
-        //}
-        //public void PrintId()
-        //{
-        //    Console.WriteLine("ID is {0}"+this.Id);
-        //}
-        //public void PrintName()
-        //{
-        //    Console.WriteLine("Name is {0}" + this.name);
-        //}
+        public int Id
+        {
+            get; set;
+        }
+        public string name
+        {
+            get; set;
+        }
+        public Customer()
+        {
+            this.Id = Id;
+            this.name = name;
+        }
+        public void PrintId()
+        {
+            Console.WriteLine("ID is {0}" + this.Id);
+        }
+        public void PrintName()
+        {
+            Console.WriteLine("Name is {0}" + this.name);
+        }
     }
 }
